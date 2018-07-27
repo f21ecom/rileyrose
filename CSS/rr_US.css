@@ -1,0 +1,521 @@
+﻿.item_loading>span {
+	position: relative;
+	top: 40%;
+	left: 42%;
+	background: url("https://www.rileyrose.com/us/shop/_common/images/en/loading.gif") center center no-repeat;
+	background-size: 100%;
+	z-index: 9;
+	width: 20%;
+	height: 15%
+}
+
+#lang {
+	background: url("https://www.rileyrose.com/us/shop/_common/images/en/bg_lang.jpg") #cee2e8 no-repeat center top;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	display: table;
+	text-align: center
+}
+
+#lang select {
+	background: url(https://www.rileyrose.com/us/shop/_common/images/en/icon_down.svg) #fff no-repeat 96% 50%;
+	background-size: 13px;
+	float: left
+}
+
+.logo {
+	background: url("https://www.rileyrose.com/us/shop/_common/images/en/rr_logo.svg") no-repeat;
+	background-position: bottom center;
+	background-size: contain;
+	display: block;
+	position: relative;
+	width: 120px;
+	height: 22px;
+	float: none;
+	margin: auto;
+	z-index: 8
+}
+
+.logo.white {
+	background: url("https://www.rileyrose.com/us/shop/_common/images/en/f21_logo_white.svg") no-repeat;
+	background-position: bottom left;
+	height: 26px
+}
+
+.icon_close {
+	background: url("https://www.rileyrose.com/us/shop/_common/images/en/icon_close.png") no-repeat center right;
+	width: 15px!important;
+	height: 15px!important;
+	opacity: 1!important;
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	z-index: 999;
+	font-size: .5em
+}
+
+.icon_menu {
+	background: url("https://www.rileyrose.com/us/shop/_common/images/en/top_menu.svg") no-repeat bottom left;
+	margin-right: 1.5em;
+	width: 23px!important;
+	height: 19px!important
+}
+
+.icon_search {
+	background: url("https://www.rileyrose.com/us/shop/_common/images/en/search.svg") no-repeat bottom left;
+	width: 19px!important;
+	height: 22px!important
+}
+
+.icon_cart {
+	background: url("https://www.rileyrose.com/us/shop/_common/images/en/cart-header.svg") no-repeat bottom left;
+	margin-left: 1.5em
+}
+
+.icon_smile {
+	background: url("https://www.rileyrose.com/us/shop/_common/images/en/smile-icon.svg") no-repeat bottom left;
+	width: 30px!important;
+	height: 20px!important
+}
+
+.icon_wishlist {
+	background: url("https://www.rileyrose.com/us/shop/_common/images/en/wishlist.svg") no-repeat bottom left
+}
+
+.icon_wishlist_gray {
+	background: url("https://www.rileyrose.com/us/shop/_common/images/en/top_wishlist.svg") no-repeat bottom left;
+	height: 26px!important;
+	width: 26px!important
+}
+
+.icon_wishlist.active {
+	background: url("https://www.rileyrose.com/us/shop/_common/images/en/wishlist_select.svg") no-repeat bottom left;
+	background-size: contain
+}
+
+.icon_wishlist_pdp {
+	background: url("https://www.rileyrose.com/us/shop/_common/images/en/wishlist_pdp.svg") no-repeat bottom left;
+	height: 36px!important;
+	width: 39px!important;
+	position: relative;
+	bottom: 5px;
+	right: 5px
+}
+
+.icon_wishlist_pdp.active {
+	background: url("https://www.rileyrose.com/us/shop/_common/images/en/wishlist_pdp_select.svg") no-repeat bottom left;
+	background-size: contain
+}
+
+.icon_signin {
+	background: url("https://www.rileyrose.com/us/shop/_common/images/en/top_myaccount.svg") no-repeat bottom left
+}
+
+.icon_signin_active {
+	background: url("https://www.rileyrose.com/us/shop/_common/images/en/top_myaccount_active.svg") no-repeat bottom left
+}
+
+.icon_m_account {
+	background: url("https://www.rileyrose.com/us/shop/_common/images/en/account.svg") no-repeat bottom left
+}
+
+.icon_m_stores {
+	background: url("https://www.rileyrose.com/us/shop/_common/images/en/stores.svg") no-repeat bottom left
+}
+
+.icon_m_help {
+	background: url("https://www.rileyrose.com/us/shop/_common/images/en/help.svg") no-repeat bottom left
+}
+
+.icon_m_order {
+	background: url("https://www.rileyrose.com/us/shop/_common/images/en/order-status.svg") no-repeat bottom left
+}
+
+.icon_h_trending {
+	background: url("https://www.rileyrose.com/us/shop/_common/images/en/trending.svg") no-repeat bottom left
+}
+
+.icon_h_tutorials {
+	background: url("https://www.rileyrose.com/us/shop/_common/images/en/tutorials.svg") no-repeat bottom left;
+	width: 21px!important
+}
+
+.icon_h_offers {
+	background: url("https://www.rileyrose.com/us/shop/_common/images/en/offers.svg") no-repeat bottom left;
+	width: 15px!important
+}
+
+.icon_h_views {
+	background: url("https://www.rileyrose.com/us/shop/_common/images/en/views.svg") no-repeat bottom left;
+	width: 34px!important;
+	position: relative;
+	bottom: 3px
+}
+
+.icon_mail {
+	background: url("../_common/images/icon_mail.svg") no-repeat bottom left;
+	margin-right: 5px;
+	width: 18px!important;
+	height: 12px!important;
+	float: none!important
+}
+
+.icon_arrow {
+	background: url("https://www.rileyrose.com/us/shop/_common/images/en/right_arrow.svg") no-repeat bottom left;
+	width: 11px!important;
+	height: 20px!important
+}
+
+input.add_icon {
+	background: #fff url("https://www.rileyrose.com/us/shop/_common/images/en/search.svg") no-repeat center left;
+	background-size: 15px;
+	background-position: 17px 10px;
+	display: block;
+	width: 100%;
+	border-radius: 0;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 0;
+	-ms-border-radius: 0;
+	-o-border-radius: 0;
+	border: 0!important;
+	position: relative;
+	z-index: 5
+}
+
+input[type="radio"]+label,
+input[type="checkbox"]+label {
+	background: url(https://www.rileyrose.com/us/shop/_common/images/en/radiocheck.png) no-repeat top center;
+	background-size: cover;
+	width: 18px;
+	height: 18px;
+	display: inline-block;
+	cursor: pointer;
+	vertical-align: top;
+	margin-right: 5px
+}
+
+.p_next {
+	position: relative;
+	background: url("https://www.rileyrose.com/us/shop/_common/images/en/icon_next.svg") no-repeat center center;
+	background-size: 100%;
+	width: 30px;
+	height: 17px;
+	vertical-align: middle
+}
+
+.p_prev {
+	position: relative;
+	background: url("https://www.rileyrose.com/us/shop/_common/images/en/icon_prev.svg") no-repeat center center;
+	background-size: 100%;
+	width: 30px;
+	height: 17px;
+	vertical-align: middle
+}
+
+.icon_size {
+	background: url("https://www.rileyrose.com/us/shop/_common/images/icon_size.svg") no-repeat center left;
+	width: 44px!important;
+	height: 25px!important
+}
+
+.star_no {
+	background: url("https://www.rileyrose.com/us/shop/_common/images/en/star_no.svg") no-repeat center left
+}
+
+.star_half {
+	background: url("https://www.rileyrose.com/us/shop/_common/images/en/star_half.svg") no-repeat center left
+}
+
+.star_full {
+	background: url("https://www.rileyrose.com/us/shop/_common/images/en/star_full.svg") no-repeat center left
+}
+
+span[class^="fa_"] {
+	display: inline-block;
+	position: relative;
+	background: url("https://www.rileyrose.com/us/shop/_common/images/en/icon_apps.png") no-repeat bottom right;
+	background-size: 100%;
+	width: 96px;
+	height: 33px;
+	vertical-align: middle
+}
+
+span[class^="fs_"] {
+	display: inline-block;
+	position: relative;
+	background: url("https://www.rileyrose.com/us/shop/_common/images/en/icon_social.svg") no-repeat bottom right;
+	background-size: 100%;
+	width: 36px;
+	height: 25px;
+	margin: 0 .5em
+}
+
+.arrow_down:after {
+	content: '';
+	position: absolute;
+	right: -16px;
+	bottom: 5px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 5px 4px 0 4px;
+	border-color: #727272 transparent transparent transparent;
+	line-height: 0;
+	_border-color: #727272 #fff #fff #fff;
+	_filter: progid:DXImageTransform.Microsoft.Chroma(color='#ffffff')
+}
+
+.arrow_down.white:after {
+	background: url("https://www.forever21.com/images/f21/us/icon_down_white.svg") no-repeat center center
+}
+
+.icon_delete {
+	position: absolute;
+	display: inline-block;
+	background: url("https://www.rileyrose.com/us/shop/_common/images/en/icon_delete.svg") no-repeat center center #fff;
+	top: 3px;
+	right: 0;
+	width: 17px!important;
+	height: 17px!important;
+	opacity: .6!important;
+	z-index: 99
+}
+
+.icon_trash {
+	background: url("https://www.rileyrose.com/us/shop/_common/images/en/icon_trash.svg") no-repeat center center;
+	width: 30px!important;
+	height: 30px!important
+}
+
+.icon_edit_white {
+	background: url("https://www.forever21.com/images/f21/us/icon_edit_white.svg") no-repeat bottom left;
+	width: 30px!important;
+	height: 30px!important
+}
+
+.icon_question {
+	position: absolute;
+	display: inline-block;
+	background: url("https://www.forever21.com/images/f21/us/icon_question.svg") no-repeat center center #fff;
+	top: 13px;
+	right: 10px;
+	width: 17px!important;
+	height: 17px!important;
+	opacity: .6!important;
+	z-index: 99
+}
+
+.checkout select,
+.quick select,
+.select.show_mobile select,
+.set_item select {
+	text-indent: 0;
+	padding: 10px 0;
+	background: url("https://www.forever21.com/images/f21/us/icon_down.svg") no-repeat 96% 50%;
+	background-size: 13px;
+	float: left;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px
+}
+
+.checkout select {
+	width: 50%;
+	padding: 1.1em 0;
+	background: url("https://www.forever21.com/images/f21/us/icon_down.svg") no-repeat 100% 50%;
+	background-size: 11px;
+	border-bottom: 1px dotted #ddd
+}
+
+.i_question {
+	background: url(https://www.rileyrose.com/us/shop/_common/images/en/icon_common_question_mark.png) no-repeat center center;
+	background-size: cover;
+	width: 15px;
+	height: 15px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 5px
+}
+
+.btn_edit:before {
+	content: "";
+	position: absolute;
+	background: url(https://www.forever21.com/images/f21/us/icon_edit.svg) no-repeat center center;
+	background-size: contain;
+	width: 20px;
+	height: 20px;
+	z-index: 9;
+	top: 2px;
+	right: 2px
+}
+
+span[class^="c_card_"] {
+	display: inline-block;
+	width: 100%;
+	max-width: 39px;
+	min-width: 33px;
+	height: 26px;
+	vertical-align: middle;
+	background-size: contain
+}
+
+span[class^="c_card_"].small {
+	width: 25px;
+	height: 16px
+}
+
+.c_card_card {
+	background: url("https://www.forever21.com/images/f21/us/icon_card_card.svg") no-repeat center left
+}
+
+.c_card_f21 {
+	background: url("https://www.forever21.com/images/f21/us/icon_card_f21.svg") no-repeat center left
+}
+
+.c_card_paypal {
+	background: url("https://www.forever21.com/images/f21/us/icon_card_paypal.svg") no-repeat center left
+}
+
+.c_card_visa {
+	background: url("https://www.forever21.com/images/f21/us/icon_card_visa.svg") no-repeat center left
+}
+
+.c_card_discover {
+	background: url("https://www.forever21.com/images/f21/us/icon_card_discover.svg") no-repeat center left
+}
+
+.c_card_master {
+	background: url("https://www.forever21.com/images/f21/us/icon_card_master.svg") no-repeat center left
+}
+
+.c_card_amex {
+	background: url("https://www.forever21.com/images/f21/us/icon_card_amex.svg") no-repeat center left
+}
+
+.quick_close {
+	background: url("https://www.rileyrose.com/us/shop/_common/images/en/icon_close.png") no-repeat center center;
+	background-size: 80%;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	cursor: pointer;
+	padding: 0;
+	z-index: 999
+}
+
+.quick_close.big {
+	background-color: #fff;
+	width: 30px;
+	height: 30px;
+	background-size: 50%;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%
+}
+
+.owl-nav>div[class*="owl-"] {
+	position: absolute;
+	width: 2.2em;
+	height: 2.2em;
+	background-size: 100%;
+	color: transparent;
+	top: 36%;
+	opacity: .8
+}
+
+#pdp_pic .owl-nav>div[class*="owl-"] {
+	top: 46%
+}
+
+.owl-next {
+	right: 1.5em;
+	background: url("https://www.forever21.com/images/f21/us/icon_next.svg") no-repeat center center
+}
+
+.owl-prev {
+	left: 1.5em;
+	background: url("https://www.forever21.com/images/f21/us/icon_prev.svg") no-repeat center center;
+	margin-left: 0
+}
+
+.owl-item.loading {
+	min-height: 150px;
+	background: url("https://www.rileyrose.com/us/shop/_common/images/en/loading.gif") no-repeat center center
+}
+
+.f21_card {
+	background-image: url("http://www.forever21.com/images/en/f21card/f21_cc_pic.jpg") no-repeat;
+	background-color: #fadbf0
+}
+
+.tag_img {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	left: -8px;
+	top: -8px;
+	z-index: 9
+}
+
+div[class^="tag_img"] {
+	background-size: contain
+}
+
+.tag_img_new {
+	background: url("/us/shop/_common/images/en/Badge-New.svg") no-repeat center center
+}
+
+.tag_img_best {
+	background: url("/us/shop/_common/images/en/Badge-Best.svg") no-repeat center center
+}
+
+.tag_img_bestof {
+	background: url("/us/shop/_common/images/en/Badge-Bestof.svg") no-repeat center center
+}
+
+@media only screen and (min-width:768px) {
+	.zoom {
+		display: none;
+		position: absolute;
+		z-index: 5;
+		top: 45%;
+		left: 45%;
+		background: url("https://www.rileyrose.com/us/shop/_common/images/en/icon_zoom.svg") no-repeat center center;
+		background-size: contain;
+		width: 35px;
+		height: 35px;
+		cursor: pointer
+	}
+	.p_zoomin .zoom {
+		width: 40px;
+		height: 40px;
+		left: 47%;
+		top: 45%
+	}
+	#account {
+		background: url("https://www.rileyrose.com/us/shop/_common/images/en/bg_account.png") no-repeat #f0bbc1 left top;
+		background-position: center right;
+		background-size: contain;
+		padding: 10.5em 0;
+		margin-bottom: 20px
+	}
+	.tag_img {
+		width: 55px;
+		height: 55px;
+		left: 0;
+		top: -10px
+	}
+}
+
+
+/* Riley Rose v1.1.1 4/16/2018 - Version 1
+  * Copyright Riley Rose
+  * Created by Elisha Lee & Joanne Kim
+*/
