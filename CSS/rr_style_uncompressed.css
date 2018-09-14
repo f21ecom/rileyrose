@@ -1,7 +1,6 @@
 /*
-  * Riley Rose Common v1.1.1 8/7/2018 - Version 1
+  * Riley Rose Common v1.1.1 9/14/2018 - Version 1
   * Copyright Riley Rose
-  * Created by Elisha Lee & Joanne Kim
   * Updated by Namhee & Eunice
   * Old Menu
 */
@@ -1747,7 +1746,7 @@ input#ihKeyword {
     width: 100%;
 }
 
-.expand_p > span:after, .mega_menu > span:after, .left_slide .expand_p > span:after {
+.expand_p > span:after, .mega_menu > span:after, .left_slide .expand_p > span:after, .mega_sub li span:after {
     content: "+";
     right: 20px;
     top: 30%;
@@ -1763,7 +1762,7 @@ input#ihKeyword {
     right: 0;
 }
 
-.expand_p.active > span:after, .mega_menu.active > span:after, .left_slide .expand_p.active > span:after {
+.expand_p.active > span:after, .mega_menu.active > span:after, .left_slide .expand_p.active > span:after, .mega_sub li.active span:after {
     content: "-";
 }
 
