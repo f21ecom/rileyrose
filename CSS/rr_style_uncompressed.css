@@ -6727,5 +6727,120 @@ img[usemap] {
     justify-content: center;
 }
 
+/* ============================== */
+/* 0917 2018 Design Tab           */
+/*================================*/
+/* Tabbed Styles */
+.tabbed {
+    width: 100%;
+    min-width: 400px;
+    margin: 0 auto;
+    overflow: hidden;
+    transition: border 250ms ease;
+    background-color: #e6e6e6;
+}
+.tabbed ul {
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    float: left;
+    padding-left: 24px;
+    list-style-type: none;
+}
+.tabbed ul * {
+    margin: 0px;
+    padding: 0px;
+}
+.tabbed ul li:first-child {
+    display: block;
+    float: right;
+    padding: 10px 20px 8px;
+    background-color: #b3b3b3;
+    margin-right: 46px;
+    z-index: 2;
+    position: relative;
+    cursor: pointer;
+    font-family: "FilsonSoftBook", "Helvetica Neue", Helvetica, Arial, "Verdana","Geneva", sans-serif;
+    font-size: 0.875em;
+}
+
+.tabbed ul li:nth-child(2) {
+    display: block;
+    float: right;
+    padding: 10px 20px 8px;
+    background-color: #000;
+    margin-right: 46px;
+    z-index: 2;
+    position: relative;
+    cursor: pointer;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Verdana","Geneva", sans-serif;
+    font-size: 14px;
+    font-size: 0.875em;
+    color: #fff;
+}
+
+.tabbed ul li:first-child:before,
+.tabbed ul li:first-child:after {
+    display: block;
+    content: " ";
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 44px;    
+    background-color: #b3b3b3;
+    transition: all 250ms ease;
+}
+
+.tabbed ul li:nth-child(2):before,
+.tabbed ul li:nth-child(2):after {
+    display: block;
+    content: " ";
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 44px;    
+    background-color: #000;
+    transition: all 250ms ease;
+}
+
+
+
+.tabbed ul li:before {
+    right: -24px;
+    box-shadow: rgba(0,0,0,.1) 3px 2px 5px, inset rgba(255,255,255,.09) -1px 0;
+}
+.tabbed ul li:after {
+    left: -24px;
+    box-shadow: rgba(0,0,0,.1) -3px 2px 5px, inset rgba(255,255,255,.09) 1px 0;
+}
+
+.tabbed ul li.active {
+    z-index: 3;
+}
+
+.tabbed ul li:first-child.active,
+.tabbed ul li:first-child.active:before,
+.tabbed ul li:first-child.active:after {
+    background-color: #FFCBC2;
+    color: #000;
+}
+
+.tabbed ul li:nth-child(2).active,
+.tabbed ul li:nth-child(2).active:before,
+.tabbed ul li:nth-child(2).active:after {
+    background-color: #000;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
