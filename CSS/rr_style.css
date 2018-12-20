@@ -1,7 +1,7 @@
 /*
-  * Riley Rose Common v1.1.1 9/18/2018 - Version 1
+  * Riley Rose Common v1.1.1 7/13/2018 - Version 1
   * Copyright Riley Rose
-  * Updated by Namhee & Eunice
+  * Created by Namhee Kim
   * Old Menu
 */
 
@@ -1746,7 +1746,7 @@ input#ihKeyword {
     width: 100%;
 }
 
-.expand_p > span:after, .mega_menu > span:after, .left_slide .expand_p > span:after, .mega_sub li span:after {
+.expand_p > span:after, .mega_menu > span:after, .left_slide .expand_p > span:after {
     content: "+";
     right: 20px;
     top: 30%;
@@ -1762,7 +1762,7 @@ input#ihKeyword {
     right: 0;
 }
 
-.expand_p.active > span:after, .mega_menu.active > span:after, .left_slide .expand_p.active > span:after, .mega_sub li.active span:after {
+.expand_p.active > span:after, .mega_menu.active > span:after, .left_slide .expand_p.active > span:after {
     content: "-";
 }
 
@@ -4479,19 +4479,13 @@ div[class^="search_suggestion"] {
         vertical-align: middle;
     }
 
-    .table.sidebyside > div:nth-child(1) {
+    .table.sidebyside > div:nth-child(odd) {
         padding-right: .5em;
     }
 
-    .table.sidebyside > div:nth-child(2) {
+    .table.sidebyside > div:nth-child(even) {
         padding-left: .5em;
     }
-
-    .table.sidebyside > div:nth-child(3) {
-        padding-left: 1em;
-    }
-
-
     /* ============================== */
     /* Quick View Code                */
     /*================================*/
@@ -5452,11 +5446,9 @@ div[class^="search_suggestion"] {
         border-right: 0;
     }
 
-    
     .nav_primary > .d_mega_menu:first-child > div > div {
-        margin-right: 0 !important;
+        margin-right: 370px;
     }
-    
 
     .menu_kicker {
         display: block;
@@ -6521,24 +6513,11 @@ div[id*="pdp_"] .owl-dots {
     text-align: left;
 }
 
-/*.special*/ .s_contents {
-    height: 70px;
+.special .s_contents {
+    height: 76px;
     overflow: hidden;
     margin-bottom: 1em;
     line-height: 140%;
-}
-
-.special_image {
-    position: relative;
-    width: 100%;
-    height: 380px;
-    padding-bottom: 10px;
-    overflow: hidden;
-}
-
-.s_info {
-    height:50px;
-    overflow:hidden;
 }
 
 /* ============================== */
@@ -6713,258 +6692,3 @@ img[usemap] {
     -webkit-box-shadow: 0px 0px 7px 2px rgba(0,0,0,0.2); 
     box-shadow: 0px 0px 7px 2px rgba(0,0,0,0.2);
 }
-
-
-/* ============================== */
-/* 0917 2018 Eunice               */
-/*================================*/
-.b_pink {
-    border: 5px solid #f486b7;
-}
-
-.center {
-    display: flex;
-    justify-content: center;
-}
-
-/* ==================================== */
-/*  Tab design 0917 2018 Eunice regular */
-/*===================================== */
-
-
-/* Tabbed Styles */
-.tabbed {
-    width: 100%;
-    min-width: 400px;
-    margin: 0 auto;
-    overflow: hidden;
-    transition: border 250ms ease;
-    background-color: #e6e6e6;
-}
-.tabbed ul {
-    margin: 0px;
-    padding: 0px;
-    overflow: hidden;
-    float: left;
-    padding-left: 24px;
-    list-style-type: none;
-}
-.tabbed ul * {
-    margin: 0px;
-    padding: 0px;
-}
-.tabbed ul li:first-child {
-    display: block;
-    float: right;
-    padding: 10px 20px 8px;
-    background-color: #b3b3b3;
-    margin-right: 46px;
-    z-index: 2;
-    position: relative;
-    cursor: pointer;
-    font-family: "FilsonSoftBook", "Helvetica Neue", Helvetica, Arial, "Verdana","Geneva", sans-serif;
-    font-size: 0.875em;
-}
-
-.tabbed ul li:nth-child(2) {
-    display: block;
-    float: right;
-    padding: 10px 20px 8px;
-    background-color: #000;
-    margin-right: 46px;
-    z-index: 2;
-    position: relative;
-    cursor: pointer;
-    font-family: "Helvetica Neue", Helvetica, Arial, "Verdana","Geneva", sans-serif;
-    font-size: 14px;
-    font-size: 0.875em;
-    color: #fff;
-}
-
-.tabbed ul li:first-child:before,
-.tabbed ul li:first-child:after {
-    display: block;
-    content: " ";
-    position: absolute;
-    top: 0;
-    height: 100%;
-    width: 44px;    
-    background-color: #b3b3b3;
-    transition: all 250ms ease;
-}
-
-.tabbed ul li:nth-child(2):before,
-.tabbed ul li:nth-child(2):after {
-    display: block;
-    content: " ";
-    position: absolute;
-    top: 0;
-    height: 100%;
-    width: 44px;    
-    background-color: #000;
-    transition: all 250ms ease;
-}
-
-
-.tabbed ul li:before {
-    right: -24px;
-    box-shadow: rgba(0,0,0,.1) 3px 2px 5px, inset rgba(255,255,255,.09) -1px 0;
-}
-.tabbed ul li:after {
-    left: -24px;
-    box-shadow: rgba(0,0,0,.1) -3px 2px 5px, inset rgba(255,255,255,.09) 1px 0;
-}
-
-.tabbed ul li.active {
-    z-index: 3;
-}
-
-.tabbed ul li:first-child.active,
-.tabbed ul li:first-child.active:before,
-.tabbed ul li:first-child.active:after {
-    background-color: #fff;
-    color: #000;
-}
-
-.tabbed ul li:nth-child(2).active,
-.tabbed ul li:nth-child(2).active:before,
-.tabbed ul li:nth-child(2).active:after {
-    background-color: #000;
-    color: #fff;
-}
-
-
-
-
-
-
-
-
-
-
-
-/* ==================================== */
-/*  Tab design 0918 2018 Eunice round.  */
-/*===================================== */
-
-/* Tabbed Styles */
-.tabbedd {
-    width: 100%;
-    min-width: 400px;
-    margin: 0 auto;
-    overflow: hidden;
-    transition: border 250ms ease;
-}
-.tabbedd ul {
-    margin: 0px;
-    padding: 0px;
-    overflow: hidden;
-    float: left;
-    padding-left: 48px;
-    list-style-type: none;
-}
-.tabbedd ul * {
-    margin: 0px;
-    padding: 0px;
-}
-.tabbedd ul li:first-child {
-    display: block;
-    float: right;
-    padding: 10px 12px 8px;
-    background-color: #ffcbc9;
-    margin-right: 46px;
-    z-index: 2;
-    position: relative;
-    cursor: pointer;
-    font-family: "FilsonSoftBook", "Helvetica Neue", Helvetica, Arial, "Verdana","Geneva", sans-serif;
-    font-size: 0.875em;
-}
-
-.tabbedd ul li:nth-child(2) {
-    display: block;
-    float: right;
-    padding: 10px 12px 8px;
-    background-color: #000;
-    margin-right: 46px;
-    z-index: 2;
-    position: relative;
-    cursor: pointer;
-    font-family: "Helvetica Neue", Helvetica, Arial, "Verdana","Geneva", sans-serif;
-    font-size: 14px;
-    font-size: 0.875em;
-    color: #fff;
-}
-
-.tabbedd ul li:first-child:before,
-.tabbedd ul li:first-child:after {
-    display: block;
-    content: " ";
-    position: absolute;
-    top: 0;
-    height: 100%;
-    width: 32px;    
-    background-color: #FFCBC2;
-    transition: all 250ms ease;
-}
-
-.tabbedd ul li:nth-child(2):before,
-.tabbedd ul li:nth-child(2):after {
-    display: block;
-    content: " ";
-    position: absolute;
-    top: 0;
-    height: 100%;
-    width: 32px;    
-    background-color: #000;
-    transition: all 250ms ease;
-}
-
-
-
-.tabbedd ul li:before {
-    right: -24px;
-    transform: skew(20deg, 0deg);
-    box-shadow: rgba(0,0,0,.1) 3px 2px 5px, inset rgba(255,255,255,.09) -1px 0;
-}
-.tabbedd ul li:after {
-    left: -24px;
-    transform: skew(-20deg, 0deg);
-    box-shadow: rgba(0,0,0,.1) -3px 2px 5px, inset rgba(255,255,255,.09) 1px 0;
-}
-
-.tabbedd ul li.active {
-    z-index: 3;
-}
-
-.tabbedd ul li:first-child.active,
-.tabbedd ul li:first-child.active:before,
-.tabbedd ul li:first-child.active:after {
-    background-color: #fff;
-    color: #000;
-    padding: 11px 12px 9px;
-}
-
-.tabbedd ul li:nth-child(2).active,
-.tabbedd ul li:nth-child(2).active:before,
-.tabbedd ul li:nth-child(2).active:after {
-    background-color: #000;
-    color: #fff;
-}
-
-
-/* Round Tabs */
-.tabbedd.rounded ul li {
-    border-radius: 8px 8px 0 0;
-}
-.tabbedd.rounded ul li:before {
-    border-radius: 0 8px 0 0;
-}
-.tabbedd.rounded ul li:after {
-    border-radius: 8px 0 0 0;
-}
-
-
-
-
-
-
