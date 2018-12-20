@@ -1762,7 +1762,7 @@ input#ihKeyword {
     right: 0;
 }
 
-.expand_p.active > span:after, .mega_menu.active > span:after, .left_slide .expand_p.active > span:after, .mega_sub li.active span:after {
+.expand_p.active > span:after, .mega_menu.active > span:after, .left_slide .expand_p.active > span:after, .mega_sub li span.active:after {
     content: "-";
 }
 
