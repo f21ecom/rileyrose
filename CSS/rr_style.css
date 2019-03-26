@@ -1,7 +1,7 @@
 /*
-  * Riley Rose Common v1.1.1 7/13/2018 - Version 1
+  * Riley Rose Common v1.1.1 03/05/2019 - Version 1
   * Copyright Riley Rose
-  * Created by Namhee Kim
+  * Updated by Namhee & Eunice
   * Old Menu
 */
 
@@ -499,7 +499,7 @@ figure {
 
 img {
     vertical-align: middle;
-    width: 100%;
+    width: 100% !important;
 }
 
 .auto > img {
@@ -1010,6 +1010,11 @@ div[class^="hp_"] {
     width: 100%;
 }
 /* Background Code*/
+
+.bg_beauty_vault {
+  background: linear-gradient(135deg, #debc77, #da8f7d, #cf6492, #b476b2, #7d83c0, #64a8da, #76cbc8, #67c292);
+}
+
 .bg_black {
     background: #111;
     color: #fff;
@@ -1272,6 +1277,10 @@ div[class^="hp_"] {
 
 .mr_10 {
     margin-right: 10px;
+}
+
+.mr_7 {
+    margin-right: 7px;
 }
 
 .ml_10 {
@@ -1746,7 +1755,7 @@ input#ihKeyword {
     width: 100%;
 }
 
-.expand_p > span:after, .mega_menu > span:after, .left_slide .expand_p > span:after {
+.expand_p > span:after, .mega_menu > span:after, .left_slide .expand_p > span:after, .mega_sub li span:after {
     content: "+";
     right: 20px;
     top: 30%;
@@ -1759,10 +1768,10 @@ input#ihKeyword {
 }
 
 .expand_p > span:after {
-    right: 0;
+    right: 10px;
 }
 
-.expand_p.active > span:after, .mega_menu.active > span:after, .left_slide .expand_p.active > span:after {
+.expand_p.active > span:after, .mega_menu.active > span:after, .left_slide .expand_p.active > span:after, .mega_sub li.active span:after {
     content: "-";
 }
 
@@ -2337,7 +2346,7 @@ fieldset .input_label.bg_white.focus > label, .f_form .input_label.focus label {
     padding: 2px;
     cursor: pointer;
     overflow:hidden;
-	display:inline-block
+    display:inline-block
 }
 
 .swatch .size li span {
@@ -4479,13 +4488,19 @@ div[class^="search_suggestion"] {
         vertical-align: middle;
     }
 
-    .table.sidebyside > div:nth-child(odd) {
+    .table.sidebyside > div:nth-child(1) {
         padding-right: .5em;
     }
 
-    .table.sidebyside > div:nth-child(even) {
+    .table.sidebyside > div:nth-child(2) {
         padding-left: .5em;
     }
+
+    .table.sidebyside > div:nth-child(3) {
+        padding-left: 1em;
+    }
+
+
     /* ============================== */
     /* Quick View Code                */
     /*================================*/
@@ -5252,9 +5267,10 @@ div[class^="search_suggestion"] {
     /* Header Code                    */
     /*================================*/
     .pre_header {
-        padding: 7px 20px;
+        padding: 4px 20px;
         font-size: 100%;
     }
+    /* original padding 7px --> to 4px */
 
     .country_wrapper > span:nth-child(n+2) {
         margin-left: 10px;
@@ -5446,9 +5462,11 @@ div[class^="search_suggestion"] {
         border-right: 0;
     }
 
+    
     .nav_primary > .d_mega_menu:first-child > div > div {
-        margin-right: 370px;
+        margin-right: 0 !important;
     }
+    
 
     .menu_kicker {
         display: block;
@@ -6513,11 +6531,24 @@ div[id*="pdp_"] .owl-dots {
     text-align: left;
 }
 
-.special .s_contents {
-    height: 76px;
+/*.special*/ .s_contents {
+    height: 70px;
     overflow: hidden;
     margin-bottom: 1em;
     line-height: 140%;
+}
+
+.special_image {
+    position: relative;
+    width: 100%;
+    height: 380px;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+
+.s_info {
+    height:50px;
+    overflow:hidden;
 }
 
 /* ============================== */
@@ -6676,7 +6707,7 @@ img[usemap] {
     border: none;
     height: auto;
     max-width: 100%;
-    width: auto;
+    /*width: auto;*/
 }
 /* ============================== */
 /* Welcome Popup Code             */
@@ -6692,3 +6723,133 @@ img[usemap] {
     -webkit-box-shadow: 0px 0px 7px 2px rgba(0,0,0,0.2); 
     box-shadow: 0px 0px 7px 2px rgba(0,0,0,0.2);
 }
+
+
+/* ============================== */
+/* 0917 2018 Eunice               */
+/*================================*/
+.b_pink {
+    border: 5px solid #f486b7;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+/* ==================================== */
+/*  Tab design 1004 2018 Eunice round.  */
+/*===================================== */
+
+/* Tabbed Styles */
+.tabbed {
+    width: 100%;
+    min-width: 300px;
+    margin: 0 auto;
+    overflow: hidden;
+    transition: border 250ms ease;
+}
+.tabbed ul {
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    float: left;
+    padding-left: 36px;
+    list-style-type: none;
+}
+.tabbed ul * {
+    margin: 0px;
+    padding: 0px;
+}
+.tabbed ul li:first-child {
+    display: block;
+    float: right;
+    padding: 9px 4px 8px;
+    background-color: #cdcdcd;
+    margin-right: 50px;
+    z-index: 2;
+    position: relative;
+    cursor: pointer;
+}
+
+.tabbed ul li:nth-child(2) {
+    display: block;
+    float: right;
+    padding: 9px 4px 8px;
+    background-color: #cdcdcd;
+    margin-right: 50px;
+    z-index: 2;
+    position: relative;
+    cursor: pointer;
+}
+
+.tabbed ul li:first-child:before,
+.tabbed ul li:first-child:after {
+    display: block;
+    content: " ";
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 32px;    
+    background-color: #cdcdcd;
+    transition: all 250ms ease;
+}
+
+.tabbed ul li:nth-child(2):before,
+.tabbed ul li:nth-child(2):after {
+    display: block;
+    content: " ";
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 32px;    
+    background-color: #cdcdcd;
+    transition: all 250ms ease;
+}
+
+
+
+.tabbed ul li:before {
+    right: -24px;
+    transform: skew(27deg, 0deg);
+}
+.tabbed ul li:after {
+    left: -24px;
+    transform: skew(-27deg, 0deg);
+}
+
+.tabbed ul li.active {
+    z-index: 3;
+}
+
+.tabbed ul li:first-child.active,
+.tabbed ul li:first-child.active:before,
+.tabbed ul li:first-child.active:after {
+    background-color: #fff;
+    color: #000;
+    padding: 8px 4px 9px;
+}
+
+.tabbed ul li:nth-child(2).active,
+.tabbed ul li:nth-child(2).active:before,
+.tabbed ul li:nth-child(2).active:after {
+    background-color: #fff;
+    color: #fff;
+}
+
+
+/* Round Tabs */
+.tabbed.rounded ul li {
+    border-radius: 4px 4px 0 0;
+}
+.tabbed.rounded ul li:before {
+    border-radius: 0 4px 0 0;
+}
+.tabbed.rounded ul li:after {
+    border-radius: 4px 0 0 0;
+}
+
